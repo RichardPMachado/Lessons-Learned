@@ -3,3 +3,11 @@
 body{
    background-color: rgb(253, 251, 251); 
 }
+
+/* R2 - Cabeçalho fixado no top e Top = 0 */
+#cabecalho{
+    position: fixed;
+    top: 0;
+    
+}
+
