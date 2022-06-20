@@ -10,9 +10,19 @@
 <body>
     <header id="cabecalho">    <!-- R2 - A barra possui o id = cabecalho   -->
         <h1 id="titulo">Lessons Learned</h1><!-- R2 - o Título posui id=titulo e tag h1 -->
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href=".licoes_aprendidas">Já Aprendidas</a> </li>
+                    <li><a href=".licoes_a_aprender">A Aprender</a></li>
+                    
+                </ul>
+            </nav>
+        </section>
     </header>
     
-    <img id="minha_foto" src="./img/richard-p-machado.png" alt="Foto do Richard P Machado"> <!-- R3 - adicionando imagem com id=minha_foto -->
+    <img id="minha_foto" src="./img/richard-p-machado.png" alt="Foto do Richard P Machado" width="350px"> <!-- R3 - adicionando imagem com id=minha_foto -->
 
     <h2>Lições Aprendidas</h2>
     <ol id="licoes_aprendidas"><!--R4 - lista numerada com 10 itens e id= licoes_aprendidas-->
@@ -25,7 +35,7 @@
         <li>Internet</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>JavaScrip</li>       
+        <li><a href="https://www.w3schools.com/js/" target="_blank">JavaScrip</a></li> <!--R7 - link deve abrir em uma nova aba do navegador-->      
     </ol>
 
     <h2>Lições a Aprender</h2>
@@ -43,7 +53,7 @@
     </ol>
 
     <footer id="rodape"><!--R6 - utilizar a tag footer e possuir o ID rodape-->
-        <p>Primeiro projeto da Trybe - Feito por Richard P Machado</p>
+        <p>Primeiro Projeto na Trybe - Feito por Richard P Machado</p>
     </footer>
 </body>
 </html>
