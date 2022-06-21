@@ -10,28 +10,33 @@
 <body>
     <header id="cabecalho">    <!-- R2 - A barra possui o id = cabecalho   -->
         <h1 id="titulo">Lessons Learned</h1><!-- R2 - o Título posui id=titulo e tag h1 -->
-        <section>
+        <section id="nav-section">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a> </li>
-                    <li><a href=".licoes_aprendidas">Já Aprendidas</a> </li>
-                    <li><a href=".licoes_a_aprender">A Aprender</a></li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#licoes_aprendidas">Já Aprendidas</a>
+                    </li>
+                    <li>
+                        <a href="#licoes_a_aprender">Vou Aprender</a>
+                    </li>
                     
                 </ul>
             </nav>
         </section>
     </header>
-    
-    <img id="minha_foto" src="./img/richard-p-machado.png" alt="Foto do Richard P Machado" width="350px"> <!-- R3 - adicionando imagem com id=minha_foto -->
-<!--======================================================================================--> 
-    
-    <!-- R9 - A tag aside deverá possuir mais de 100 caracteres e menos de 300  -->
-    <aside>
-        <h2>Richard Peret Machado</h2>
-        <p>"Com o pensamento focado 100% nos estudos, hoje sinto que minha carreira está tendo um belo recomeço e eu estou pronto para essa nova aventura!"</p>
-    </aside>
-
-
+    <section id="second-section">
+        <img id="minha_foto" class="lado-esquerdo" src="./img/richard-p-machado.png" alt="Foto do Richard P Machado" width="350px"> <!-- R3 - adicionando imagem com id=minha_foto -->
+    <!--======================================================================================--> 
+        
+        <!-- R9 - A tag aside deverá possuir mais de 100 caracteres e menos de 300  -->
+        <aside class="lado-direito">
+            <h2>Richard Peret Machado</h2>
+            <p>"Com o pensamento focado 100% nos estudos, hoje sinto que minha carreira está tendo um belo recomeço e eu estou pronto para essa nova aventura!"</p>
+        </aside>
+    </section>
     <!--R4 - lista numerada com 10 itens e id= licoes_aprendidas-->
     <h2>Lições Aprendidas</h2>
     <ol id="licoes_aprendidas">
@@ -64,7 +69,7 @@
     <!--======================================================================================-->
 
     <!--R8 - deverá ser uma tag html article e deve possuir mais de 300 caracteres e menos de 600-->
-    <article>
+    <article class="lado-esquerdo">
         <h2>Sobre o meu Aprendizado</h2>
         <p>Nos primeiros dias de aula, tive a sensação que não conseguiria acompanhar, pois eram muitas informações novas e cheias de detalhes. Porém, ao acompanhar o método da Trybe, com o auxílio das mentorias e sim, muita, mas muita prática, as dificuldades foram se tornando facilidades e por consequência, tudo foi se encaixando em uma lógica, até então, desconhecida por mim. </p>
         <p>Aprender está se tornando cada vez mais fascinante e divertido, e conforme os dias passsam, um hábito vital.</p>
