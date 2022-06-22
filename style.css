@@ -1,5 +1,4 @@
 /* Primeiro requisito - cor de fundo = rgb(253, 251, 251) */
-
 body {
   background: rgb(253, 251, 251);
   margin: 0;
@@ -24,9 +23,6 @@ body {
   color: white;
   display: inline-block;
   padding-top: 10px;   
-}
-
-header h1 {
   margin: 0;
   font-size: 2em;
 }
@@ -49,8 +45,7 @@ nav ul li a {
   padding: 10px;
   color: rgb(0, 82, 0);
   text-decoration: none;
-  transition: background ease-in-out 0.4s;    
-
+  transition: background ease-in-out 0.4s;
 }
 
 nav ul li a:hover {
@@ -64,12 +59,14 @@ nav ul li a:hover {
   width: 100vw;
   height: 90vh;
 }
+
 #minha-foto {
   position: relative;
   float: left;
   height: 100vh;
   margin: 20vh 5vw;
 }
+
 aside #lado-direito {
   min-height: 60vh;
   margin: 14vh 5vw 14vh 45vw;
@@ -81,5 +78,4 @@ footer {
   border-top: rgb(0, 82, 0) 2px solid;
   text-align: center;
   padding-bottom: 10px;
-  font-weight: 700;
 }
