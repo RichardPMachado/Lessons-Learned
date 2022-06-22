@@ -17,7 +17,6 @@ body {
   width:100vw;
   height: 7vh;
   text-align: center;
- 
 }
 #titulo{
   color: white;
@@ -52,17 +51,27 @@ nav ul li a:hover{
     color: white;
 }
 #second-section{
-    padding-top: 10vh;
+    padding-top: 18vh;
+    text-align: center;
     width: 100vw;
     height: 90vh;
 }
 #minha-foto{
   position: relative;
   float: left;
-  height: 60vh;
-  margin: 14vh 5vw;
+  height: 100vh;
+  margin: 20vh 5vw;
 }
 aside #lado-direito{
     min-height: 60vh;
     margin: 14vh 5vw 14vh 45vw;
+}
+
+footer{
+    color: white;
+    background-color:green;
+    border-top:rgb(0, 82, 0) 2px solid ;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
 }
