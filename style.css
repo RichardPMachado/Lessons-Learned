@@ -22,14 +22,14 @@ body {
 #titulo {
   color: white;
   display: inline-block;
-  padding-top: 10px;   
+  padding-top: 10px;
   margin: 0;
   font-size: 2em;
 }
 
 nav {
   background-color: rgb(197, 224, 197);
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 nav ul {
