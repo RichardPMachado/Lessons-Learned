@@ -92,7 +92,7 @@ main {
   align-items: center;
 }
 
-.right-side {
+aside .right-side {
   display: inline-block;
   position: absolute;
   float: right;
@@ -105,3 +105,4 @@ footer {
   text-align: center;
   padding-bottom: 10px;
 }
+
