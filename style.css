@@ -89,7 +89,6 @@ main {
 .first-list {
   display: inline-block;
   position: absolute;
-  float: left;
   width: 100%;
   align-items: center;
 }
@@ -97,7 +96,6 @@ main {
 aside .right-side {
   display: inline-block;
   position: absolute;
-  float: right;
   width: 100%;
 }
 
