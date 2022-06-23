@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
 }
 
@@ -54,7 +55,7 @@ nav ul li a:hover {
 }
 
 #second-section {
-  padding-top: 18vh;
+  padding-top: 25vh;
   text-align: center;
   width: 100vw;
   height: 90vh;
@@ -67,9 +68,30 @@ nav ul li a:hover {
   margin: 20vh 5vw;
 }
 
-aside #lado-direito {
-  min-height: 60vh;
-  margin: 14vh 5vw 14vh 45vw;
+
+
+.centralizado {
+  min-height: 5vh;
+  margin: 5vh 0vw 5vh 25vw;
+  width: 50%;
+}
+
+#nome{
+  margin: -2vh 0 -1vh 0;
+  font-size: 70px;
+  color: rgb(0, 82, 0);
+}
+
+main {
+  align-items: center;
+  margin: 5vh 0vw 5vh 0vw;
+  padding-left: 10%;
+}
+
+.first-list {
+  display: inline-block;
+  width: 80%;
+  align-items: center;
 }
 
 footer {
