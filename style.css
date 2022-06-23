@@ -75,14 +75,14 @@ nav ul li a:hover {
 }
 
 #nome {
-  margin: -2vh 0 -1vh 0;
+  margin: -2vh 0 -1vh;
   font-size: 70px;
   color: rgb(0, 82, 0);
 }
 
 main {
   align-items: center;
-  margin: 5vh 0 5vh 0;
+  margin: 5vh 0;
   padding-left: 10%;
 }
 
