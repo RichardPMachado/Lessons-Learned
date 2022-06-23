@@ -68,15 +68,13 @@ nav ul li a:hover {
   margin: 20vh 5vw;
 }
 
-
-
 .centralizado {
   min-height: 5vh;
-  margin: 5vh 0vw 5vh 25vw;
+  margin: 5vh 0 5vh 25vw;
   width: 50%;
 }
 
-#nome{
+#nome {
   margin: -2vh 0 -1vh 0;
   font-size: 70px;
   color: rgb(0, 82, 0);
@@ -84,7 +82,7 @@ nav ul li a:hover {
 
 main {
   align-items: center;
-  margin: 5vh 0vw 5vh 0vw;
+  margin: 5vh 0 5vh 0;
   padding-left: 10%;
 }
 
