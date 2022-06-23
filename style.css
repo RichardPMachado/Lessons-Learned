@@ -68,7 +68,7 @@ nav ul li a:hover {
   margin: 20vh 5vw;
 }
 
-.centralizado {
+aside {
   min-height: 5vh;
   margin: 5vh 0 5vh 25vw;
   width: 50%;
@@ -82,13 +82,15 @@ nav ul li a:hover {
 
 main {
   align-items: center;
-  margin: 5vh 0;
-  padding-left: 10%;
+  width: 100%;
+  padding: 0 20vw;
 }
 
 .first-list {
   display: inline-block;
-  width: 50%;
+  position: absolute;
+  float: left;
+  width: 100%;
   align-items: center;
 }
 
@@ -96,6 +98,7 @@ aside .right-side {
   display: inline-block;
   position: absolute;
   float: right;
+  width: 100%;
 }
 
 footer {
