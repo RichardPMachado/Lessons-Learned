@@ -51,6 +51,7 @@ nav ul li a {
   text-decoration: none;
   transition: background ease-in-out 0.6s;
   padding: 10px 15px;
+  text-transform: uppercase;
 }
 
 nav ul li a:hover {
@@ -87,27 +88,23 @@ h2 {
 }
 
 #container-table {
-  position: relative;
-  height: 110vh;
   z-index: -1;
 }
 
 #section-table {
-  position: absolute;
-  top: 57%;
-  left: 48%;
-  transform: translate(-50%, -50%);
   align-items: center;
+  margin: 40vh 20vw 0 22vw;
 }
 
 .first-list {
   display: inline-block;
   align-items: center;
-  padding-right: 30px;
+  margin: 0 70px 0 0;
 }
 
 .first-list ol , .lado-direito-tabela ul {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 footer h2 {
@@ -142,12 +139,17 @@ footer h2 {
 }
 
 #meu-apredizado {
-  padding: 30vh 25vw 0 26.5vw;
-  line-height: 1.2em;
+  position: relative;
+  z-index: -1;
+  margin: 30vh 26vw 0 22vw;
+}
+
+#meu-aprendizado article {
+  position: absolute;
 }
 
 #habilidades-adquiridas {
-  padding: 30vh 25vw 30vh 26.5vw;
+  padding: 15vh 26vw 15vh 22vw;
 }
 
 #habilidades-adquiridas h2 {
