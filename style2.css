@@ -143,6 +143,7 @@ footer h2 {
 
 #meu-apredizado {
   padding: 30vh 25vw 0 26.5vw;
+  line-height: 1.2em;
 }
 
 #habilidades-adquiridas {
@@ -163,7 +164,7 @@ footer h2 {
 #habilidades-adquiridas td {
   background-color: rgb(197, 224, 197);
   color: rgb(3, 107, 82);
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 footer {
